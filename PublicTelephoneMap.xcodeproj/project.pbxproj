@@ -12,6 +12,7 @@
 		C96D5A58232A7136001909B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96D5A56232A7136001909B0 /* Main.storyboard */; };
 		C96D5A5A232A7138001909B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96D5A59232A7138001909B0 /* Assets.xcassets */; };
 		C96D5A5D232A7138001909B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96D5A5B232A7138001909B0 /* LaunchScreen.storyboard */; };
+		C96D5A66232A71E7001909B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96D5A65232A71E7001909B0 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C96D5A59232A7138001909B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C96D5A5C232A7138001909B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96D5A5E232A7138001909B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96D5A65232A71E7001909B0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96D5A66232A71E7001909B0 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				C96D5A51232A7136001909B0 /* PublicTelephoneMap */,
 				C96D5A50232A7136001909B0 /* Products */,
+				C96D5A64232A71E7001909B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				C96D5A5E232A7138001909B0 /* Info.plist */,
 			);
 			path = PublicTelephoneMap;
+			sourceTree = "<group>";
+		};
+		C96D5A64232A71E7001909B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C96D5A65232A71E7001909B0 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
