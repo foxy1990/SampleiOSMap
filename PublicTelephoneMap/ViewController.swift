@@ -52,7 +52,6 @@ class ViewController: UIViewController {
         mapView.delegate = self
         mapView.mapType = .standard
         mapView.userTrackingMode = .follow
-        mapView.userTrackingMode = .followWithHeading
         
     }
     
@@ -120,8 +119,13 @@ extension ViewController: MKMapViewDelegate {
         }
 
         // アノテーションビューを作成する
-        let pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: nil)
+//        let pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: nil)
+        let pinView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: nil)
 
+        pinView.glyphImage = UIImage(named:"pinImage")!
+        // ピンを画像化
+//        pinView.image = UIImage.init(named: "pinImage")
+//        pinView.annotation = annotation
         // 吹き出しを表示可能にする
         pinView.canShowCallout = true
 
