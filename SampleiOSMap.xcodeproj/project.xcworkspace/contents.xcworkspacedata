@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PublicTelephoneMap.xcodeproj">
+      location = "self:../SampleiOSMap">
    </FileRef>
 </Workspace>

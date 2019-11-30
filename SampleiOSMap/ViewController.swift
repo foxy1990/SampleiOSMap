@@ -33,10 +33,6 @@ class ViewController: UIViewController {
         
         startUpdatingLocation()
         
-        //        let annotation = Annotation(
-        //            address: "東京都新宿区新宿３丁目", title: "YYYY", subtitle: "ZZZ")
-        //        add(with: annotation)
-        
     }
     
     // 初期設定
@@ -64,25 +60,7 @@ class ViewController: UIViewController {
         }
         myLocationManager.startUpdatingLocation()
     }
-    
-    //    // TODO: ピン作成参考実装,後日削除
-    //    private func add(with annotation: Annotation) {
-    //        // 現在位置取得
-    //        CLGeocoder().geocodeAddressString(annotation.address) { [weak self] (placeMarks, error) in
-    //            guard let placeMark = placeMarks?.first,
-    //                let latitude = placeMark.location?.coordinate.latitude,
-    //                let longitude = placeMark.location?.coordinate.longitude else { return }
-    //
-    //            // ピンの生成
-    //            let point = MKPointAnnotation()
-    //            point.coordinate = CLLocationCoordinate2DMake(latitude, longitude)
-    //            point.title = annotation.title
-    //            point.subtitle = annotation.subtitle
-    //            // MapViewにピン追加
-    //            self?.mapView.addAnnotation(point)
-    //        }
-    //    }
-    
+
     //ロングタップを感知したときに呼び出されるメソッド
     @IBAction func longPressMap(_ sender: UILongPressGestureRecognizer) {
         
@@ -118,14 +96,10 @@ extension ViewController: MKMapViewDelegate {
             return nil
         }
 
-        // アノテーションビューを作成する
-//        let pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: nil)
         let pinView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: nil)
 
         pinView.glyphImage = UIImage(named:"pinImage")!
-        // ピンを画像化
-//        pinView.image = UIImage.init(named: "pinImage")
-//        pinView.annotation = annotation
+
         // 吹き出しを表示可能にする
         pinView.canShowCallout = true
 

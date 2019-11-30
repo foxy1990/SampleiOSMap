@@ -13,10 +13,11 @@
 		C96D5A5A232A7138001909B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96D5A59232A7138001909B0 /* Assets.xcassets */; };
 		C96D5A5D232A7138001909B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96D5A5B232A7138001909B0 /* LaunchScreen.storyboard */; };
 		C96D5A66232A71E7001909B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96D5A65232A71E7001909B0 /* MapKit.framework */; };
+		C9F297B523929EBC003966EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F297B423929EBC003966EC /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C96D5A4F232A7136001909B0 /* PublicTelephoneMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicTelephoneMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96D5A4F232A7136001909B0 /* SampleiOSMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleiOSMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96D5A52232A7136001909B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C96D5A54232A7136001909B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C96D5A57232A7136001909B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		C96D5A5C232A7138001909B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96D5A5E232A7138001909B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C96D5A65232A71E7001909B0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C9F297B423929EBC003966EC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +43,8 @@
 		C96D5A46232A7136001909B0 = {
 			isa = PBXGroup;
 			children = (
-				C96D5A51232A7136001909B0 /* PublicTelephoneMap */,
+				C9F297B423929EBC003966EC /* Default-568h@2x.png */,
+				C96D5A51232A7136001909B0 /* SampleiOSMap */,
 				C96D5A50232A7136001909B0 /* Products */,
 				C96D5A64232A71E7001909B0 /* Frameworks */,
 			);
@@ -50,12 +53,12 @@
 		C96D5A50232A7136001909B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C96D5A4F232A7136001909B0 /* PublicTelephoneMap.app */,
+				C96D5A4F232A7136001909B0 /* SampleiOSMap.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C96D5A51232A7136001909B0 /* PublicTelephoneMap */ = {
+		C96D5A51232A7136001909B0 /* SampleiOSMap */ = {
 			isa = PBXGroup;
 			children = (
 				C96D5A52232A7136001909B0 /* AppDelegate.swift */,
@@ -65,7 +68,7 @@
 				C96D5A5B232A7138001909B0 /* LaunchScreen.storyboard */,
 				C96D5A5E232A7138001909B0 /* Info.plist */,
 			);
-			path = PublicTelephoneMap;
+			path = SampleiOSMap;
 			sourceTree = "<group>";
 		};
 		C96D5A64232A71E7001909B0 /* Frameworks */ = {
@@ -93,7 +96,7 @@
 			);
 			name = PublicTelephoneMap;
 			productName = PublicTelephoneMap;
-			productReference = C96D5A4F232A7136001909B0 /* PublicTelephoneMap.app */;
+			productReference = C96D5A4F232A7136001909B0 /* SampleiOSMap.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C96D5A4A232A7136001909B0 /* Build configuration list for PBXProject "PublicTelephoneMap" */;
+			buildConfigurationList = C96D5A4A232A7136001909B0 /* Build configuration list for PBXProject "SampleiOSMap" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C96D5A5D232A7138001909B0 /* LaunchScreen.storyboard in Resources */,
+				C9F297B523929EBC003966EC /* Default-568h@2x.png in Resources */,
 				C96D5A5A232A7138001909B0 /* Assets.xcassets in Resources */,
 				C96D5A58232A7136001909B0 /* Main.storyboard in Resources */,
 			);
@@ -293,16 +297,15 @@
 		C96D5A62232A7138001909B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 94WN5WJMYY;
-				INFOPLIST_FILE = PublicTelephoneMap/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SampleiOSMap/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.hbfxy.17bl.PublicTelephoneMap;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.hbfxy.17bl.SampleiOSMap;
+				PRODUCT_NAME = SampleiOSMap;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,16 +314,15 @@
 		C96D5A63232A7138001909B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 94WN5WJMYY;
-				INFOPLIST_FILE = PublicTelephoneMap/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SampleiOSMap/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.hbfxy.17bl.PublicTelephoneMap;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.hbfxy.17bl.SampleiOSMap;
+				PRODUCT_NAME = SampleiOSMap;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C96D5A4A232A7136001909B0 /* Build configuration list for PBXProject "PublicTelephoneMap" */ = {
+		C96D5A4A232A7136001909B0 /* Build configuration list for PBXProject "SampleiOSMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C96D5A5F232A7138001909B0 /* Debug */,
