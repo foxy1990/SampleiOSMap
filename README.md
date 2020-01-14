@@ -1,4 +1,4 @@
-# SampleiOSMap
+# TryiOSMap
 
 iOSMap の実験用リポジトリ
 
